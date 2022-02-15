@@ -1,0 +1,11 @@
+{{#if function}}
+    const {{name}}=()=>{
+        return 'hello {{name}}'
+    }
+{{else}}
+    class {{name}}{
+        constructor(a){
+            this.a=a
+        }
+    }
+{{/if}}
